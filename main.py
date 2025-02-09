@@ -53,7 +53,7 @@ def get_wr_skey():
 
 def read():
     index = 1
-    logging.info(f"⏱️ 预计进行{index} 次阅读...")
+    logging.info(f"⏱️ 预计进行{READ_NUM} 次阅读...")
     while index <= READ_NUM:
         data['ct'] = int(time.time())
         data['ts'] = int(time.time() * 1000)
